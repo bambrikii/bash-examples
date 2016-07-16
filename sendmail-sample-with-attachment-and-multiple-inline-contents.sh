@@ -54,5 +54,5 @@ Content-Type: application/octet-stream
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename=\"a.sh\"
 
-`base64 sendmail-sample.sh`
+`base64 sendmail-sample-with-attachment-and-multiple-inline-contents.sh`
 --$BOUNDARY" | sendmail -t
